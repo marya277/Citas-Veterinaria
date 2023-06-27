@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(226 232 240);
+}
+/* Estilos personalizados para los inputs */
+@layer components {
+    .input {
+      @apply bg-white border-2 w-full p-2 text-sm mt-2 placeholder-gray-400 rounded-md;
+    }
+  }
+  
